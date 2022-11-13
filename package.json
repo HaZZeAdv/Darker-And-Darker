@@ -1,0 +1,18 @@
+{
+	"name": "darkanddarker",
+	"version": "2.0.2",
+	"description": "Dark and Darker romania bot",
+	"main": "Bot.js",
+	"keywords": [],
+	"author": "HaZZe",
+	"license": "MIT",
+	"dependencies": {
+		"discord.js": "^14.3.0",
+		"dotenv": "^16.0.2"
+	},
+	"imports": {
+		"#events/*": "./events/*",
+		"#commands/*": "./events/commands/*.js"
+	},
+	"type": "module"
+}
